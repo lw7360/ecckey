@@ -30,4 +30,5 @@ module.exports = {
   generate: generate,
   encrypt: encrypt,
   decrypt: decrypt,
+  sjcl: sjcl,
 }
