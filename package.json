@@ -1,0 +1,33 @@
+{
+  "name": "ecckey",
+  "version": "0.0.1",
+  "description": "Wrapper around SJCL's ECC Implementation",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lw7360/ecckey.git"
+  },
+  "keywords": [
+    "ecc"
+  ],
+  "author": "Larry Wu <lw7360@gmail.com> (http://larrywu.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lw7360/ecckey/issues"
+  },
+  "homepage": "https://github.com/lw7360/ecckey#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chance": "^0.7.7",
+    "mocha": "^2.3.2"
+  },
+  "dependencies": {
+    "eccjs": "^0.3.1"
+  }
+}
