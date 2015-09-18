@@ -1,7 +1,7 @@
 {
   "name": "ecckey",
   "version": "0.0.1",
-  "description": "Wrapper around SJCL's ECC Implementation",
+  "description": "A wrapper around SJCL's ECC Implementation, that lets you password protect your ecc keys.",
   "main": "index.js",
   "directories": {
     "test": "tests"
